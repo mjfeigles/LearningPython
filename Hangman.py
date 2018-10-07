@@ -10,7 +10,7 @@ for line in f:
 f.close()
 
 #makes an array to output a losing message for Mr.Gresh
-file = open("LoseGresh.txt")
+file = open("LoseMessages.txt")
 wrong = []
 for line in file:
     wrong.append(line)
